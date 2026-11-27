@@ -182,3 +182,37 @@
     border-right-color: var(--border);
   }
 }
+/* ألوان الواجهة الجديدة: أبيض وأصفر دافئ مع خلفية سينمائية داكنة */
+:root {
+  --bg-color: #121212;        /* خلفية سينمائية داكنة وأنيقة */
+  --text-main: #ffffff;       /* نص رئيسي باللون الأبيض الناصع */
+  --accent-yellow: #ffb703;   /* أصفر دافئ ومميز للعناوين والأزرار */
+  --card-bg: #1e1e1e;         /* خلفية كروت الأفلام */
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-main);
+  font-family: Arial, sans-serif;
+}
+
+/* تخصيص كروت الأفلام بالأصفر والأبيض */
+.movie-card {
+  background-color: var(--card-bg);
+  border: 2px solid var(--accent-yellow);
+  border-radius: 8px;
+  padding: 15px;
+  color: var(--text-main);
+}
+
+.movie-title {
+  color: var(--accent-yellow);
+  font-weight: bold;
+}/* تعديل النصوص العلوية والشريط لتكون بيضاء وواضحة */
+header, nav, .navbar, .top-bar, a {
+  color: #ffffff !important;
+}
+
+header a:hover, nav a:hover {
+  color: #ffb703 !important; /* تتلون بالأصفر عند مرور الماوس فوقها */
+}

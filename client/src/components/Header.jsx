@@ -8,11 +8,11 @@ function Header() {
       justifyContent: 'space-between',
       alignItems: 'center',
       padding: '15px 30px',
-      backgroundColor: '#1a1a1a',
+      backgroundColor: '#121212',
       color: '#fff'
     }}>
-      <Link to="/" style={{ textDecoration: 'none', color: '#e50914' }}>
-        <h2 style={{ margin: 0 }}>CineVerse 🎬</h2>
+      <Link to="/" style={{ textDecoration: 'none', color: '#ffea00' }}>
+        <h2 style={{ margin: 0, color: '#ffea00' }}>CineVerse</h2>
       </Link>
       <nav style={{ display: 'flex', gap: '20px' }}>
         <Link to="/" style={{ color: '#fff', textDecoration: 'none' }}>Explore</Link>
